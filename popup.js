@@ -5,22 +5,20 @@ document.getElementById('get-html').addEventListener('click', () => {
                 target: { tabId: tabs[0].id },
                 func: () => {
                     const teamsInfoArray = [
-                        { id: "/m/01xn5sc", name: "Bình Dương", stadium: "Stadium 1" },
-                        { id: "/g/121qfk5v", name: "Thanh Hoá", stadium: "Stadium 2" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
-                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai", stadium: "Stadium 3" },
+                        { id: "/g/121qfk5v", name: "Thanh Hóa" }, 
+                        { id: "/m/0ghqgf", name: "Hoàng Anh Gia Lai" }, 
+                        { id: "/g/11f08kzdh8", name: "Hồng Lĩnh Hà Tĩnh" }, 
+                        { id: "/m/01xn5sc", name: "Bình Dương" }, 
+                        { id: "/m/0ghqfd", name: "Nam Định" }, 
+                        { id: "/m/064l6nx", name: "Hà Nội" }, 
+                        { id: "/m/051x467", name: "Viettel" }, 
+                        { id: "/g/1228xg3s", name: "CAHN" }, 
+                        { id: "/m/09k53c6", name: "Quảng Nam" }, 
+                        { id: "/m/01xn5sr", name: "TP.HCM" }, 
+                        { id: "/m/0ghqdc", name: "Bình Định" }, 
+                        { id: "/m/0404qjd", name: "Hải Phòng" }, 
+                        { id: "/m/026hmd8", name: "Đà Nẵng" }, 
+                        { id: "/m/0ghqf1", name: "Sông Lam Nghệ An" }
                         // Thêm các đội khác tương tự
                     ];
 
