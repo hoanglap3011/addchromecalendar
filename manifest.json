@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Content Extractor",
+  "version": "1.0",
+  "description": "Lấy toàn bộ nội dung HTML của trang hiện tại và in ra console.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
