@@ -1,17 +1,41 @@
 {
   "manifest_version": 3,
-  "name": "HTML Content Extractor",
+  "name": "Thêm sự kiện thể thao cho Google Calendar",
   "version": "1.0",
-  "description": "Lấy toàn bộ nội dung HTML của trang hiện tại và in ra console.",
+  "description": "Thêm sự kiện thể thao cho Google Calendar",
   "permissions": [
     "activeTab",
+    "tabs",
     "scripting"
   ],
   "action": {
     "default_popup": "hello.html",
     "default_icon": "icon.png"
   },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "type": "module"
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["add.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
