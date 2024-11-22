@@ -36,6 +36,18 @@ const TEAMS = [
   { id: "/m/0223bl", name: "Crystal Palace", stadium: "Selhurst Park Stadium, Holmesdale Rd, London SE25 6PU, Vương Quốc Anh" },
   { id: "/m/0k_l4", name: "Southampton", stadium: "St Mary's Stadium, Britannia Rd, Southampton SO14 5FP, Vương Quốc Anh" },
   { id: "/m/01fwqn", name: "Wolves", stadium: "Molineux Stadium, Waterloo Rd, Wolverhampton WV1 4QR, Vương Quốc Anh" },
+  { id: "/m/04b6sy", name: "Việt Nam", stadium: "Sân vận động Quốc gia Mỹ Đình, 1 Đ. Lê Đức Thọ, Mỹ Đình, Nam Từ Liêm, Hà Nội, Việt Nam" },
+  { id: "/m/046vvc", name: "Thái Lan", stadium: "Rajamangala National Stadium, 286 Soi Ramkhamhaeng 24 Yaek 18, Khwaeng Hua Mak, Khet Bang Kapi, Krung Thep Maha Nakhon 10240, Thái Lan" },
+  { id: "/m/0413b_", name: "Indonesia", stadium: "Sân vận động Bung Karno, Jl. Pintu Satu Senayan, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270, Indonesia" },
+  { id: "/m/04h4zx", name: "Malaysia", stadium: "Sân vận động quốc gia Bukit Jalil, Jalan Barat, Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia" },
+  { id: "/m/04h54p", name: "Singapore", stadium: "Sân vận động quốc gia Singapore, 1 Stadium Dr, Singapore 397629" },
+  { id: "/m/04k3r_", name: "Philippines", stadium: "Sân vận động Rizal Memorial, Rizal Memorial Sports Complex, Adriatico St, Malate, Maynila, 1004 Kalakhang Maynila, Philippines" },
+  { id: "/m/04nq_y", name: "Lào", stadium: "Sân vận động Quốc gia Lào Mới, 18°03'43.7\"N 102°42'14., 2E, Muang Xai, Lào" },
+  { id: "/m/04nqn6", name: "Campuchia", stadium: "Sân vận động Olympic, Charles de Gaulle Boulevard រាជធានី​ភ្នំពេញ, Phnom Penh 12253, Campuchia" },
+  { id: "/m/04q41k", name: "Myanmar", stadium: "Sân vận động Thuwunna, R5CP+GPG, Ragoon, Myanmar (Miến Điện)" },
+  { id: "/m/04mx79", name: "Đông Timor", stadium: "9 P. Trịnh Hoài Đức, Cát Linh, Đống Đa, Hà Nội, Việt Nam" },
+  { id: "/g/11b6nyv4yk", name: "Bình Phước", stadium: "Sân vận động tỉnh Bình Phước, GVHH+HFM, Tân Bình, Đồng Xoài, Bình Phước, Việt Nam" },
+  { id: "/g/11f1zdmlfs", name: "Ninh Bình", stadium: "Sân vận động Đông Thành, Đông Phương Hồng, Đông Thành, Ninh Bình, Việt Nam" },
 ];
 
 
