@@ -48,6 +48,8 @@ const TEAMS = [
   { id: "/m/04mx79", name: "Đông Timor", stadium: "9 P. Trịnh Hoài Đức, Cát Linh, Đống Đa, Hà Nội, Việt Nam" },
   { id: "/g/11b6nyv4yk", name: "Bình Phước", stadium: "Sân vận động tỉnh Bình Phước, GVHH+HFM, Tân Bình, Đồng Xoài, Bình Phước, Việt Nam" },
   { id: "/g/11f1zdmlfs", name: "Ninh Bình", stadium: "Sân vận động Đông Thành, Đông Phương Hồng, Đông Thành, Ninh Bình, Việt Nam" },
+  { id: "/m/06l22", name: "Real Madrid", stadium: "Sân vận động Santiago Bernabéu, Av. de Concha Espina, 1, Chamartín, 28036 Madrid, Tây Ban Nha" },
+  { id: "/m/0hvgt", name: "Barcelona", stadium: "Sân vận động Camp Nou, Les Corts, 08028 Barcelona, Tây Ban Nha" },
 ];
 
 
