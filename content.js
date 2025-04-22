@@ -50,6 +50,10 @@ const TEAMS = [
   { id: "/g/11f1zdmlfs", name: "Ninh Bình", stadium: "Sân vận động Đông Thành, Đông Phương Hồng, Đông Thành, Ninh Bình, Việt Nam" },
   { id: "/m/06l22", name: "Real Madrid", stadium: "Sân vận động Santiago Bernabéu, Av. de Concha Espina, 1, Chamartín, 28036 Madrid, Tây Ban Nha" },
   { id: "/m/0hvgt", name: "Barcelona", stadium: "Sân vận động Camp Nou, Les Corts, 08028 Barcelona, Tây Ban Nha" },
+  { id: "/m/02w64f", name: "Tây Ban Nha", stadium: "Sân vận động Santiago Bernabéu, Av. de Concha Espina, 1, Chamartín, 28036 Madrid, Tây Ban Nha" },
+  { id: "/m/01l3vx", name: "Pháp", stadium: "Stade de France, 93200 Saint-Denis, Pháp" },
+  { id: "/m/01l3wr", name: "Đức", stadium: "Sân vận động Allianz, Werner-Heisenberg-Allee 25, 80939 München, Đức" },
+  { id: "/m/02rqxc", name: "Bồ Đào Nha", stadium: "Estádio do Sport Lisboa e Benfica, Av. Eusébio da Silva Ferreira, 1500-313 Lisboa, Bồ Đào Nha"},
 ];
 
 
