@@ -54,6 +54,8 @@ const TEAMS = [
   { id: "/m/01l3vx", name: "Pháp", stadium: "Stade de France, 93200 Saint-Denis, Pháp" },
   { id: "/m/01l3wr", name: "Đức", stadium: "Sân vận động Allianz, Werner-Heisenberg-Allee 25, 80939 München, Đức" },
   { id: "/m/02rqxc", name: "Bồ Đào Nha", stadium: "Estádio do Sport Lisboa e Benfica, Av. Eusébio da Silva Ferreira, 1500-313 Lisboa, Bồ Đào Nha"},
+  { id: "/m/01_1kk", name: "PSG", stadium: "Parc des Princes, 24 Rue du Commandant Guilbaud, 75016 Paris, Pháp"},
+  { id: "/m/03x6m", name: "Inter", stadium: "Sân vận động Giuseppe Meazza, Piazzale Angelo Moratti, 20151 Milano MI, Ý"}
 ];
 
 
@@ -71,7 +73,7 @@ if (window.location.href.includes("google.com/search")) {
 
 // trang thêm lịch
 if (window.location.href.includes("ofe=true")) {
-  tinhChinhThem()();
+  tinhChinhThem();
 }
 
 function themBieuTuongVaoDivTranDau() {
@@ -112,8 +114,6 @@ function themBieuTuongVaoDivTranDau() {
 
 // chọn map, chọn Lịch thi đấu bóng đá
 function tinhChinhThem() {
-
-
   setTimeout(() => {
     const inputElement = document.querySelector('input[aria-label="Thêm vị trí"]');
     if (inputElement) {
